@@ -1,0 +1,14 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">ALC 4 phase 1</string>
+    <string name="aboutalc">About ALC</string>
+    <string name="alcphase1">ALC 4 Phase 1</string>
+    <string name="profile">Profile</string>
+    <string name="name">Philomena Mbura</string>
+    <string name="track">Track : Android</string>
+    <string name="country">Country : Kenya</string>
+    <string name="email">Email: philomenambura@gmail.com</string>
+    <string name="slack">Slack Username: @PhilomenaMbura</string>
+    <string name="number">Phone Number : +254703196466</string>
+    <string name="myprofile">My Profile</string>
+</resources>
