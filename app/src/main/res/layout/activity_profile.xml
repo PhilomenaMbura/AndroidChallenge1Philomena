@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ProfileActivity">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ProfileActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -14,8 +15,7 @@
             android:id="@+id/me"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:src="@drawable/me"
-            />
+            android:src="@drawable/me" />
 
         <TextView
             android:id="@+id/name"
@@ -25,50 +25,42 @@
             android:textAlignment="center"
             android:textSize="30sp" />
 
-        <view
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-
         <TextView
             android:id="@+id/track"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
             android:text="@string/track"
-         />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:textSize="20sp"
             android:text="@string/country"
-          />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
             android:text="@string/email"
-            />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:textSize="20sp"
-            android:text="@string/number" />
+            android:text="@string/number"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/slack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:textSize="20sp"
             android:text="@string/slack"
-           />
+            android:textSize="20sp" />
     </LinearLayout>
 </ScrollView>

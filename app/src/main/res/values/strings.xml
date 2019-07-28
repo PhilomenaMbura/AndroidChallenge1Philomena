@@ -11,4 +11,5 @@
     <string name="slack">Slack Username: @PhilomenaMbura</string>
     <string name="number">Phone Number : +254703196466</string>
     <string name="myprofile">My Profile</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
 </resources>
